@@ -36,10 +36,32 @@ class intro {
         // ========================= Operators ======================== 
 
 
-        int num1 =20;
-        int num2 = 5;
-        int result  = num1 % num2;
-        System.out.println(result);
+        // int num1 =20;
+        // int num2 = 5;
+        // int result  = num1 % num2;
+        // System.out.println(result);
 
+
+        // ========================= Conditional Statements ========================
+
+        int num = 10;
+        if(num>8){
+            System.out.println("Number is greater than 8");
+        } else if(num == 8) {
+            System.out.println("Number is equal to 8");
+        } else {
+            System.out.println("Number is less than 8");
+        }
+
+
+        // ============================ new Switch =========================== 
+
+        int x= 4;
+        switch(x){
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 4 -> System.out.println("Thursday");
+            default-> System.out.println("Sunay");
+        }
     }
 }
