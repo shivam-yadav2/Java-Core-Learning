@@ -34,7 +34,12 @@ class intro {
 
 
         // ========================= Operators ======================== 
-        
+
+
+        int num1 =20;
+        int num2 = 5;
+        int result  = num1 % num2;
+        System.out.println(result);
 
     }
 }
