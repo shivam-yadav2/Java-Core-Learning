@@ -14,7 +14,6 @@ class B extends A {
 }
 
 public class Demo {
-
     public static void main(String[] args) {
         A obj = new B();
         obj.show1(); // Calls method from class A
